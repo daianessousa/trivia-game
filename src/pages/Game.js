@@ -13,8 +13,6 @@ export function Game() {
   const value = 1;
 
   function countPointers() {
-    console.log(pontos);
-    console.log(`valor inicial: ${init}`);
     setInit(init - 1);
     if (init <= 0) history.push('/results');
   }
